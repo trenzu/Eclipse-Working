@@ -1,0 +1,9 @@
+<http://utdallas/semclass/SirTimothy>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "June 8, 1955" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "timbl@w3.org" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#NAME>
+                "Sir Timothy John Berners-Lee" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Computer Scientist" .

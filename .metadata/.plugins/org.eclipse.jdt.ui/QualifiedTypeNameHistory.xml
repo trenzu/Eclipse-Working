@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="org.apache.jena.tdb.TDBFactory"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.Dataset"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.ReadWrite"/>
+<fullyQualifiedTypeName name="org.apache.jena.util.FileManager"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="org.apache.jena.rdf.model.Resource"/>
+<fullyQualifiedTypeName name="org.apache.jena.rdf.model.Property"/>
+<fullyQualifiedTypeName name="org.apache.jena.vocabulary.VCARD"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.DatabindContext"/>
+<fullyQualifiedTypeName name="org.apache.jena.vocabulary.DC"/>
+<fullyQualifiedTypeName name="org.apache.jena.vocabulary.RDF"/>
+<fullyQualifiedTypeName name="org.apache.jena.rdf.model.RDFWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="org.apache.jena.rdf.model.Model"/>
+<fullyQualifiedTypeName name="org.apache.jena.rdf.model.ModelFactory"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.Query"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.QueryFactory"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.QueryExecution"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.QueryExecutionFactory"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.ResultSet"/>
+<fullyQualifiedTypeName name="org.apache.jena.query.ResultSetFormatter"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+</qualifiedTypeNameHistroy>

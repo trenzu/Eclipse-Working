@@ -1,0 +1,20 @@
+Progrmming Language: Java
+
+Framework: Java Swing
+IDE: Eclipse
+SQLServer: MYSql
+
+Steps to run:
+
+Open mysql command line, Place the given initialize.sql file in source *location* 
+
+
+Eclipse:
+
+Open eclipse IDE
+1. Import the given project file (also install the window builder and swt core softwares)
+2. DB_Connection.java has required connection establishment to MYSQL using JDBC.
+3. please change the username and password fields according to your dabase.
+4. Run the main java file and perform functions as desired using the GUI.
+
+

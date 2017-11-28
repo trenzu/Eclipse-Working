@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass/person#"
+    xmlns:j.1="http://utdallas/semclass/book#"
+    xmlns:j.2="http://utdallas/semclass/author#"
+    xmlns:j.3="http://utdallas/semclass/director#"
+    xmlns:j.4="http://utdallas/semclass/movie#">
+  <rdf:Description rdf:about="http://utdallas/semclass/book#/AClockworkOrange">
+    <dc:date>1962</dc:date>
+    <dc:title>A Clockwork Orange</dc:title>
+    <dc:creator>
+      <rdf:Description rdf:about="http://utdallas/semclass/author#/PeterGeorge">
+        <vcard:FN>Peter George</vcard:FN>
+        <rdf:type>
+          <rdf:Description rdf:about="http://utdallas/semclass/author#">
+            <rdf:type rdf:resource="http://utdallas/semclass/author#"/>
+          </rdf:Description>
+        </rdf:type>
+      </rdf:Description>
+    </dc:creator>
+    <dc:type>
+      <rdf:Description rdf:about="http://utdallas/semclass/book#">
+        <rdf:type rdf:resource="http://utdallas/semclass/book#"/>
+      </rdf:Description>
+    </dc:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass/book#/RedAlert">
+    <dc:date>1958</dc:date>
+    <dc:title>Red Alert</dc:title>
+    <dc:creator>
+      <rdf:Description rdf:about="http://utdallas/semclass/author#/AnthonyBurgess">
+        <vcard:FN>Anthony Burgess</vcard:FN>
+        <rdf:type rdf:resource="http://utdallas/semclass/author#"/>
+      </rdf:Description>
+    </dc:creator>
+    <dc:type rdf:resource="http://utdallas/semclass/book#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass/movie#/DrStrangelove">
+    <rdf:type>
+      <rdf:Description rdf:about="http://utdallas/semclass/movie#">
+        <rdf:type rdf:resource="http://utdallas/semclass/movie#"/>
+      </rdf:Description>
+    </rdf:type>
+    <j.4:Year>1964</j.4:Year>
+    <j.4:Name>Dr Stranlove</j.4:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass/movie#/AClockWorkOrange">
+    <rdf:type rdf:resource="http://utdallas/semclass/movie#"/>
+    <j.4:Year>1971</j.4:Year>
+    <j.4:Name>A Clock Work Orange</j.4:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass/director#">
+    <rdf:type rdf:resource="http://utdallas/semclass/director#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass/person#">
+    <vcard:FN>Stanley Kubrick</vcard:FN>
+    <rdf:type rdf:resource="http://utdallas/semclass/person#"/>
+  </rdf:Description>
+</rdf:RDF>

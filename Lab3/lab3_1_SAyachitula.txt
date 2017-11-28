@@ -1,0 +1,44 @@
+#Query 1	
+
+	Prefix vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+	select DISTINCT  ?x
+	where { ?x vcard:FN "Jane Smith"}
+	
+
+#Query 2	
+
+	Prefix vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+	select DISTINCT  ?age 
+	where { ?x <http://somewhere/peopleInfo#age> ?age}
+	limit 2
+
+
+
+#Query 3	
+
+	Prefix vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+	select DISTINCT ?name ?age 
+	where { ?x vcard:FN ?name .  
+    		?x <http://somewhere/peopleInfo#age> ?age}
+	limit 2
+
+#Query 4	
+
+	Prefix vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+	select DISTINCT ?name ?age 
+	where { ?x vcard:FN ?name .  
+            ?x <http://somewhere/peopleInfo#age> ?age.
+            FILTER(?age="23")}
+
+
+#Query 5	
+
+	Prefix vcard:<http://www.w3.org/2001/vcard-rdf/3.0#>
+	select DISTINCT ?name ?age ?given 
+	where { ?x vcard:FN ?name .  
+       		?x <http://somewhere/peopleInfo#age> ?age.
+       		?x vcard:N _:a.
+        	_:a vcard:Given ?given}
+
+
+

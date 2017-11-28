@@ -1,0 +1,56 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<file:///C:/Users/tr3nzu/eclipse-workspace/Sem%20Assign1/>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///C:/Users/tr3nzu/eclipse-workspace/Sem%20Assign1/#me> ;
+        foaf:primaryTopic     <file:///C:/Users/tr3nzu/eclipse-workspace/Sem%20Assign1/#me> .
+
+<file:///C:/Users/tr3nzu/eclipse-workspace/Sem%20Assign1/#me>
+        a                       foaf:Person ;
+        foaf:depiction          <file:///C:/Users/tr3nzu/eclipse-workspace/Sem%20Assign1/Rajesh.jpg> ;
+        foaf:family_name        "Ayachitula" ;
+        foaf:givenname          "Rajesh Srinivasa" ;
+        foaf:homepage           <http://www.utdallas.edu/> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu/praveena1> ;
+                                  foaf:mbox     <mailto:praveena1@gmail.com> ;
+                                  foaf:name     "Praveena1"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu//praveena2> ;
+                                  foaf:mbox     <mailto:praveena2@utdallas.edu> ;
+                                  foaf:name     "praveena2"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu/praveena3> ;
+                                  foaf:mbox     <mailto:praveena3@gmail.com> ;
+                                  foaf:name     "praveena3"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu/praveena1> ;
+                                  foaf:mbox     <mailto:praveena1@gmail.com> ;
+                                  foaf:name     "Praveena1"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu//praveena2> ;
+                                  foaf:mbox     <mailto:praveena2@utdallas.edu> ;
+                                  foaf:name     "praveena2"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu/praveena3> ;
+                                  foaf:mbox     <mailto:praveena3@gmail.com> ;
+                                  foaf:name     "praveena3"
+                                ] ;
+        foaf:mbox               <mailto:rajesh134@gmail.com> ;
+        foaf:name               "Rajesh Srinivasa Ayachitula" ;
+        foaf:nick               "Rajesh" ;
+        foaf:phone              <tel:324121> ;
+        foaf:schoolHomepage     <http://www.utdallas.edu/> ;
+        foaf:title              "Mr" ;
+        foaf:workInfoHomepage   <http://www.utdallas.edu//student> ;
+        foaf:workplaceHomepage  <http://www.utdallas.edu/> .

@@ -1,0 +1,24 @@
+<http://utdallas/semclass/author#/AnthonyBurgess> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Anthony Burgess" .
+<http://utdallas/semclass/author#/AnthonyBurgess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/author#> .
+<http://utdallas/semclass/author#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/author#> .
+<http://utdallas/semclass/book#/RedAlert> <http://purl.org/dc/elements/1.1/date> "1958" .
+<http://utdallas/semclass/book#/RedAlert> <http://purl.org/dc/elements/1.1/title> "Red Alert" .
+<http://utdallas/semclass/book#/RedAlert> <http://purl.org/dc/elements/1.1/creator> <http://utdallas/semclass/author#/AnthonyBurgess> .
+<http://utdallas/semclass/book#/RedAlert> <http://purl.org/dc/elements/1.1/type> <http://utdallas/semclass/book#> .
+<http://utdallas/semclass/book#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/book#> .
+<http://utdallas/semclass/movie#/AClockWorkOrange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/movie#> .
+<http://utdallas/semclass/movie#/AClockWorkOrange> <http://utdallas/semclass/movie#Year> "1971" .
+<http://utdallas/semclass/movie#/AClockWorkOrange> <http://utdallas/semclass/movie#Name> "A Clock Work Orange" .
+<http://utdallas/semclass/movie#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/movie#> .
+<http://utdallas/semclass/director#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/director#> .
+<http://utdallas/semclass/book#/AClockworkOrange> <http://purl.org/dc/elements/1.1/date> "1962" .
+<http://utdallas/semclass/book#/AClockworkOrange> <http://purl.org/dc/elements/1.1/title> "A Clockwork Orange" .
+<http://utdallas/semclass/book#/AClockworkOrange> <http://purl.org/dc/elements/1.1/creator> <http://utdallas/semclass/author#/PeterGeorge> .
+<http://utdallas/semclass/book#/AClockworkOrange> <http://purl.org/dc/elements/1.1/type> <http://utdallas/semclass/book#> .
+<http://utdallas/semclass/author#/PeterGeorge> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Peter George" .
+<http://utdallas/semclass/author#/PeterGeorge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/author#> .
+<http://utdallas/semclass/person#> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Stanley Kubrick" .
+<http://utdallas/semclass/person#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/person#> .
+<http://utdallas/semclass/movie#/DrStrangelove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://utdallas/semclass/movie#> .
+<http://utdallas/semclass/movie#/DrStrangelove> <http://utdallas/semclass/movie#Year> "1964" .
+<http://utdallas/semclass/movie#/DrStrangelove> <http://utdallas/semclass/movie#Name> "Dr Stranlove" .

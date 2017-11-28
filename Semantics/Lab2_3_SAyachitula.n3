@@ -1,0 +1,61 @@
+@base          <file:///C:/Users/tr3nzu/eclipse-workspace/Semantics/n3> .
+<http://utdallas/semclass/author#/AnthonyBurgess>
+        a       <http://utdallas/semclass/author#> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Anthony Burgess" .
+
+<http://utdallas/semclass/author#>
+        a       <http://utdallas/semclass/author#> .
+
+<http://utdallas/semclass/book#/RedAlert>
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass/author#/AnthonyBurgess> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1958" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Red Alert" ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/book#> .
+
+<http://utdallas/semclass/book#>
+        a       <http://utdallas/semclass/book#> .
+
+<http://utdallas/semclass/movie#/AClockWorkOrange>
+        a       <http://utdallas/semclass/movie#> ;
+        <http://utdallas/semclass/movie#Name>
+                "A Clock Work Orange" ;
+        <http://utdallas/semclass/movie#Year>
+                "1971" .
+
+<http://utdallas/semclass/movie#>
+        a       <http://utdallas/semclass/movie#> .
+
+<http://utdallas/semclass/director#>
+        a       <http://utdallas/semclass/director#> .
+
+<http://utdallas/semclass/book#/AClockworkOrange>
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass/author#/PeterGeorge> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1962" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "A Clockwork Orange" ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/book#> .
+
+<http://utdallas/semclass/author#/PeterGeorge>
+        a       <http://utdallas/semclass/author#> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Peter George" .
+
+<http://utdallas/semclass/person#>
+        a       <http://utdallas/semclass/person#> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Stanley Kubrick" .
+
+<http://utdallas/semclass/movie#/DrStrangelove>
+        a       <http://utdallas/semclass/movie#> ;
+        <http://utdallas/semclass/movie#Name>
+                "Dr Stranlove" ;
+        <http://utdallas/semclass/movie#Year>
+                "1964" .
